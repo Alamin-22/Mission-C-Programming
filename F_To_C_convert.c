@@ -3,15 +3,15 @@
 int main()
 {
 
-    float C, CalculatedF;
+    float F, CalculatedC;
 
-    printf("Enter the celsius to convert into F \n =>>>    ");
+    printf("Enter the F to convert into C =>> \n ");
 
-    scanf("%f", &C);
+    scanf("%f", &F);
 
-    CalculatedF = (C * (9.0 / 5.0)) + 32;
+    CalculatedC = (5.0 / 9.0) * (F - 32);
 
-    printf("Your Calculated F is =>> %f  ", CalculatedF);
+    printf("Your Calculated C is => %.2f \n ", CalculatedC);
 
     return 0;
 }
