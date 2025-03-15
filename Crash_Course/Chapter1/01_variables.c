@@ -2,7 +2,10 @@
 
 int main()
 {
+    int firstNumber;
+    firstNumber = 22;
 
-    printf("Hello World!! 2");
+    printf("Yea I can access the variable on the Print %d", firstNumber);
+
     return 0;
 }
