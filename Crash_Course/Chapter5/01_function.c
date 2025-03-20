@@ -10,9 +10,6 @@ There are two types of Functions are available in C programming Language
 
 ( void ) => is used to avoid the retrun type of the function
 
-
-
-
 */
 
 // function Prototype
