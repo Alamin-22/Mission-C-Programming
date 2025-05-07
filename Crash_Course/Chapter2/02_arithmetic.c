@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
-
 an arithmetical operations and is result
 
 
