@@ -3,7 +3,6 @@
 
 int main()
 {
-
     char userName[50];
     char vowelsWeGot[50];
     int vowelIdx = 0;

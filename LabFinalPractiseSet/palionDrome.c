@@ -11,7 +11,7 @@ int main()
     int isPalinDrome = 1; // means it is true.
 
     printf("Enter Your Name to CHeck for PalinDrome =>>>> ");
-    scanf("%s", name);
+    scanf("%s", &name);
     int lengthOfName = strlen(name);
     // now we have to check first index === last index if and similarly 2nd idx == second last idx and soo on.
     /*
