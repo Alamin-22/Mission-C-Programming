@@ -10,9 +10,12 @@ int main()
     printf("Enter the Value of how many time you want to check  =>> ");
     scanf("%d", &n);
 
-    while (!(initialVale <= n) && !(initialVale % 2 == 0))
+    while (n >= initialVale)
     {
-        printf("This is the Even Number => %d  \n", initialVale);
+        if (initialVale % 2 == 0)
+        {
+            printf("This is the Even Number => %d  \n", initialVale);
+        }
         initialVale++;
     }
 
